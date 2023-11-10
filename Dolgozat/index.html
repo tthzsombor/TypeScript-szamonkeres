@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    
+      <header>
+        <label>
+          <b>A művek darabszáma:</b>
+          <input type="number" id="osszdarab" readonly> <br>
+         </label>
+         
+
+          <label>
+            <b>A művek összesített ára:</b> 
+            <input type="number" id="osszar" readonly> <br>
+          </label>
+            
+      </header>
+      <br>
+  
+      <label>A műremek neve:</label>
+      <input type="text" id="nev"><br>
+      <label>A készítés éve:</label>
+      <input type="number" id="ev"><br>
+      <label>A mű kikiáltási ára (Ft):</label>
+      <input type="number" id="ar"><br>
+      <label>A szobor magassága cm-ben:</label>
+      <input type="number" id="magassag"><br>
+      <p id="erroruezenet"></p>
+      <button id="button">Ellenőrzés</button>
+   
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
